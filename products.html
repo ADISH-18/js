@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        body {
+            background-color: #666;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .link {
+            display: block;
+            margin: 20px 0;
+            font-size: 24px;
+            text-decoration: underline;
+            color: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 60%; /* Adjust table width as needed */
+        }
+        td {
+            padding: 50px;
+            width: 30%;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .product img {
+            width: 100%; /* Ensures the image takes up 100% of its container */
+            height: auto; /* Ensures the image scales proportionally */
+            max-width: 100%; /* Ensures the image does not exceed its container */
+            display: block; /* Removes extra space below inline images */
+            border-radius: 10px;
+        }
+        .large img {
+            width: 100%; /* Ensures the image takes up 100% of its container */
+            height: auto; /* Ensures the image scales proportionally */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Products</h1>
+    <table>
+        <tr>
+            <td style="background-color: #0073e6;">
+                <div class="product">
+                    <img src="assets/img1.jpg" alt="Image 01">
+                </div>
+            </td>
+            <td style="background-color: #28a745;">
+                <div class="product">
+                    <img src="assets/img2.jpg" alt="Image 02">
+                </div>
+            </td>
+            <td style="background-color: #343aeb;">
+                <div class="product">
+                    <img src="assets/img3.jpg" alt="Image 03">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="background-color: #5a3d31;">
+                <div class="product large">
+                    <img src="assets/img4.jpg" alt="Image 04">
+                </div>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <a href="more_products.html" class="link">Click Here for more products</a>
+    <footer>
+        <p>Webpage is developed by ADISH</p>
+    </footer>
+</body>
+</html>
